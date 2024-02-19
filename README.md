@@ -2,7 +2,7 @@
 
 FydeOS style window decoration plugin.
 
-Forked from [decor](https://github.com/wayfireWM/wayfire/plugins/decor).
+Forked from [decor](https://github.com/wayfireWM/wayfire/tree/master/plugins/decor).
 
 ## Installation
 
