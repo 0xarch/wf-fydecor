@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<wayfire>
+	<plugin name="fydecor">
+		<_short>Fyde Decoration</_short>
+		<_long>A FydeOS like decoration for Wayfire.</_long>
+		<category>Effects</category>
+		<option name="font" type="string">
+			<_short>Font</_short>
+			<_long>Sets the font to use for the title bars.</_long>
+			<default>FiraCodeNerdFontMono</default>
+		</option>
+		<option name="title_height" type="int">
+			<_short>Title bar height</_short>
+			<_long>Sets the height of the title bars in pixels.</_long>
+			<default>27</default>
+		</option>
+		<option name="border_size" type="int">
+			<_short>Border size</_short>
+			<_long>Sets the border size in pixels.</_long>
+			<default>2</default>
+		</option>
+		<option name="button_order" type="string">
+			<_short>Order of window buttons</_short>
+			<_long>Sets the order of the window buttons.</_long>
+			<default>minimize maximize close</default>
+		</option>
+		<!-- Colors -->
+		<option name="active_color" type="color">
+			<_short>Color when window is active</_short>
+			<_long>Sets the color when the window is active.</_long>
+			<default>#262b34ff</default>
+		</option>
+		<option name="inactive_color" type="color">
+			<_short>Color when window is inactive</_short>
+			<_long>Sets the color when the window is inactive.</_long>
+			<default>#222730ff</default>
+		</option>
+		<option name="ignore_views" type="string">
+			<_short>Decoration disabled for specified window types</_short>
+			<_long>Disables window decoration for windows matching the specified criteria.</_long>
+			<default>none</default>
+		</option>
+	</plugin>
+</wayfire>
